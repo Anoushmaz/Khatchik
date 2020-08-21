@@ -1,0 +1,420 @@
+    * {
+        box-sizing: border-box;
+    }
+    /* Style of the body */
+
+    body {
+        font-family: Indie Flower;
+        margin: 0;
+        background-color: white;
+    }
+    /* Style of the header */
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: chocolate;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+h1{
+    padding: 3em;
+    margin-top: 4em;
+}
+
+.naam{
+    margin-left: -2em;
+    margin-top: -3em;
+}
+.First> img{
+        width: 10em;
+}
+
+.Second >img {
+        width: 10em;
+
+}
+.Third > img {
+    width: 10em;
+}
+
+
+
+    .backbutton {
+        display: block;
+        float: left;
+        margin-top: -3em;
+        margin-left: 2em;
+    }
+
+    .active {
+        display: block;
+        text-align: center;
+        padding: 0.5em;
+        text-decoration: none;
+    }
+
+    .active img {
+        width: 2em;
+    }
+.button2 {
+        display: block;
+        text-align: center;
+        padding: 0.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1em;
+            color: chocolate;
+
+        background-color: white;
+        border-radius: 1em;
+        font-family: Montserrat;
+        text-align: left;
+        float: right;
+        margin-top: -3em;
+        margin-right: 1em;
+        text-decoration: none;
+    }
+
+    .button {
+        display: block;
+        text-align: center;
+        padding: 0.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1em;
+        color: chocolate;
+        background-color: white;
+        border-radius: 1em;
+        font-family: Montserrat;
+        text-align: left;
+        float: right;
+        margin-top: -3em;
+        margin-right: 1em;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        color: white;
+        background-color: black;
+        transform: rotate(2deg);
+        transition: 0.5s ease-in-out;
+    }
+
+    .DienstButton {
+        display: block;
+        padding: 1em;
+        cursor: pointer;
+        font-size: 1em;
+        color: white;
+        background-color: chocolate;
+        border-radius: 5em;
+        text-align: center;
+    }
+
+    .backbutton img {
+        width: 1em;
+    }
+
+    .header-image {
+        background-image: url("Foto's/Achtergrond.png");
+        height: 45em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+
+    .header-text {
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 2em;
+    }
+
+    .header-text p {
+        font-size: 0.6em;
+        margin-top: -11em;
+        margin-left: 3.6em;
+    }
+
+    .header-image a img {
+        cursor: pointer;
+        padding: 1em;
+        width: 4em;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .leesmeer {
+        color: white;
+        padding: 1em;
+        cursor: pointer;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .linkedin {
+        cursor: pointer;
+        position: absolute;
+        top: 4.3em;
+        left: 2em;
+        transform: translate(-50%, -50%);
+        font-size: 2em;
+    }
+
+ .linkedin:hover {
+        transition: 0.5s ease-in-out;
+        transform: rotate(330deg);
+    }
+
+    .instagram {
+        cursor: pointer;
+        position: absolute;
+        top: 4em;
+        left: 4em;
+        transform: translate(-50%, -50%);
+        font-size: 2em;
+    }
+
+    .instagram:hover {
+        transition: 0.5s ease-in-out;
+        transform: rotate(30deg);
+    }
+
+.facebook {
+        cursor: pointer;
+        position: absolute;
+        top: 3.94em;
+        left: 6em;
+        transform: translate(-50%, -50%);
+        font-size: 2em;
+    }
+
+    .facebook:hover {
+        transition: 0.5s ease-in-out;
+        transform: rotate(330deg);
+    }
+
+
+
+
+    .header-image .leesmeer:hover {
+        color: chocolate;
+        transition: 1s ease-in-out;
+        font-size: 1.1em;
+        top: 88%;
+    }
+    /* hele column */
+
+    #row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Doeleinden*/
+
+
+  #row2 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .First{
+        flex: 10%;
+        color: black;
+        margin: 5em;
+        max-width: 20em;
+            text-align: center;
+
+    }
+
+
+h3 {
+    padding: 1em;
+    background-color: chocolate;
+    color: white;
+   text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-decoration: none;
+
+}
+
+h3:hover{
+        background-color: antiquewhite;
+    color: black;
+    transform: rotate(1deg);
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+
+
+.rondleiding {
+        flex: 10%;
+        color: black;
+        margin: 3em;
+          background-color: antiquewhite;
+    padding: 3em;
+    border-radius: 2em;
+
+    }
+.rondleiding > img {
+    width: 100%;
+
+}
+
+    /* Review quotes */
+
+    .mainone {
+        color: black;
+        flex: 80%;
+        margin: 2em;
+        padding: 5em;
+        float: left;
+        background-color: whitesmoke;
+    }
+
+    .maintwo {
+        color: black;
+        flex: 80%;
+        margin: 2em;
+        padding: 5em;
+        float: right;
+        background-color: whitesmoke;
+    }
+
+    .main {
+        margin: 2em;
+    }
+
+    h2 > i {
+        font-size: 20px;
+        border-left-style: solid;
+        border-color: chocolate;
+        border-width: 0.3em;
+        padding-left: 0.5em;
+        margin-top: 3em;
+    }
+    /* contact */
+
+.container {
+    background-color: aliceblue;
+    padding: 2em;
+}
+.container2 {
+    border-top: solid;
+    margin: 4em;
+
+
+}
+
+.container2 > a {
+        background-color: chocolate;
+        padding: 1em
+        border: none;
+        cursor: pointer;
+        border-radius: 5em;
+        font-family: Montserrat;
+        font-size: 1em;
+        padding: 1em;
+        color: white;
+    text-decoration: none;
+margin-top: 3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+
+
+    }
+
+.container2 > p {
+    text-align: center;
+
+}
+    .secmain {
+        flex: 80%;
+        color: black;
+        padding-top: 5em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    input[type=text],
+    textarea {
+        width: 100%;
+        padding: 1em;
+        border: 0.2em solid #ccc;
+        border-radius: 1em;
+        margin-top: 1em;
+        margin-bottom: 3em;
+        font-family: Montserrat;
+    }
+
+    input[type=submit] {
+        background-color: chocolate;
+        padding: 0.5em 1em 0.5em 1em;
+        border: none;
+        cursor: pointer;
+        border-radius: 5em;
+        font-family: Montserrat;
+        width: 100%;
+        font-size: 1em;
+        padding: 1em;
+        color: white;
+    }
+
+    input[type=submit]:hover {
+        color: black;
+    }
+    /* Footer */
+
+    .footer {
+        margin-top: 5em;
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+    }
+    /* Responsive layout - makes a two column-layout instead of four columns */
+
+    @media screen and (max-width: 1000px) {
+        .secmain {
+            width: 70%;
+        }
+
+         .button {
+            visibility: collapse;
+        }
+
+    }
+
+    @media screen and (min-width: 1000px) {
+        .secmain {
+            width: 50%;
+        }
+ .button2 {
+            visibility:collapse;
+        }
+
+    }
